@@ -43,10 +43,9 @@ input#red:checked ~ label[for="red"]{
 }
 
 
-label[for="green"]
-{
+label[for="green"] {
 	opacity: 0.4;
-	 color: rgb(0,128,0);
+	color: rgb(0,128,0);
 }
 
 input#green:checked ~ label[for="green"]{

@@ -1,0 +1,28 @@
+nav {
+    width: 900px;
+    box-sizing: border-box;
+    background-color: #ac44ff;
+    padding: 0 65px;
+    margin: 20px auto;
+    height: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.49);
+}
+
+a{
+    text-transform: uppercase;
+    padding: 9px 15px;
+    text-decoration: none;
+    color: white;
+    font: bold 20px Economica;
+    display: inline-block;
+}
+
+a:last-child{
+    vertical-align: middle;
+    float: right;
+}
+
+a:hover{
+    background-color: #f2f2de;
+    color: #b6b6b6;
+}
