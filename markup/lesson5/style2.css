@@ -1,0 +1,108 @@
+.container{
+    width: 296px;
+    border-radius: 7px;
+    border: 3px solid #ee8129;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(83, 83, 83, 0.69);
+}
+
+p{
+    margin: 0;
+}
+
+header{
+    padding: 25px 0 0 85px;
+    height: 76px;
+    background: #ee8129;
+    font: bold 24px Trebuchet MS;
+    color: white;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+
+section{
+    height: 168px;
+    font: 24px Trebuchet MS;
+    text-transform: uppercase;
+    padding: 20px 0 0 65px;
+    color: #5c5d60;
+
+}
+
+.numbers{
+    font: bold 70px Trebuchet MS;
+    margin: 10px 5px;
+}
+
+.numbers::before{
+    content: '$';
+    font-size: 20px;
+    vertical-align: 35px;
+}
+
+.numbers::after{
+    content: 'Monthly';
+    font-size: 18px;
+    text-transform: capitalize;
+    vertical-align: -10px;
+}
+
+
+ul{
+    margin-top: -20px;
+    padding: 0 13px;
+}
+
+li{
+    font: 15px Trebuchet MS;
+    list-style-type: none;
+    padding: 10px 0 10px 70px;
+    color: #888c94;
+    position: relative;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+li:nth-child(2n-1){
+    background-color: #e8f2fb;
+}
+
+li:nth-child(2n){
+    background-color: #f5f5f6;
+}
+
+li::before{
+    content: '';
+    background: url("1.png");
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    left: 30px;
+    top: 5px;
+}
+footer{
+    height: 90px;
+}
+
+button{
+    height: 45px;
+    width: 255px ;
+    margin: 5px 20px;
+    border-radius: 7px;
+    background-color: #ee8129;
+    border: none;
+    border-bottom: 3px ridge rgba(189, 91, 0, 0.65);
+    color: white;
+    font: bold 14px Trebuchet MS;
+    text-transform: uppercase;
+}
+
+
+button:hover{
+    width: 260px;
+    margin: 5px 18px;
+    background-color: #ee6025;
+    transition: all .3s ease-in;
+}
+
