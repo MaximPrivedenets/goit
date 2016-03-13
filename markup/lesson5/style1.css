@@ -17,7 +17,7 @@ li{
 }
 
 .menu>li>a{
-    display: inline-block;
+    display: block;
     color: white;
     text-decoration: none;
     text-transform: uppercase;
@@ -42,20 +42,18 @@ li{
 }
 
 .inner-menu>li>a{
-    display: inline-block;
+    display: block;
     text-decoration: none;
     padding: 10px 6px;
     color: #717171;
 }
 
-.menu>li>a:hover + .inner-menu, .inner-menu:hover{
+.menu>li>a:hover ~ .inner-menu, .inner-menu:hover{
     position: absolute;
     top: 40px;
     left: 0;
     opacity: 1;
 }
-
-
 
 .inner-menu>li>a:hover{
     color:red;
